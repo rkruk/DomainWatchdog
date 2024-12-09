@@ -1,0 +1,25 @@
+{
+  "domains": [
+    {
+      "domain": "google.com",
+      "alias": "Google",
+      "category": "Search Engines"
+    },
+    {
+      "domain": "example.com",
+      "alias": "Example Domain",
+      "category": "Test"
+    },
+    {
+      "domain": "github.com",
+      "alias": "GitHub",
+      "category": "Development"
+    },
+    {
+      "domain": "python.org",
+      "alias": "Python",
+      "category": "Programming Languages"
+    }
+  ]
+}
+Benefits:
