@@ -1,0 +1,3 @@
+# Ignore sensitive files
+domains.json
+domain_check.log
