@@ -1,4 +1,4 @@
-# DomainWatchdog
+# Domain Watchdog
 
 This repository contains a Python-based tool and GitHub Action to monitor domain expiry dates.<br>
 The tool reads a list of domains, retrieves domain information (such as creation, expiry, and last updated dates), and sends a daily email report listing the details.<br>
