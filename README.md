@@ -107,6 +107,11 @@ Days to Expire: 10
 - Rate Limits: Some WHOIS servers may rate-limit requests. The tool uses ThreadPoolExecutor to parallelize domain checks, which may help avoid timeouts but could still be affected by server limitations.
 
 ### Troubleshooting
-- Email Sending Issues: Ensure EMAIL_SENDER, EMAIL_PASSWORD, SMTP_SERVER, and SMTP_PORT secrets are correctly configured. Some email providers may require app-specific passwords or additional security settings.
+- Email Sending Issues. Ensure that the:
+  - EMAIL_SENDER,
+  - EMAIL_PASSWORD,
+  - SMTP_SERVER,
+  - and SMTP_PORT
+  secrets are correctly configured. Some email providers may require app-specific passwords or additional security settings.
 - Domain Check Failures: Check domain_check.log for error messages if a domain fails to load. WHOIS rate-limiting or network issues can sometimes prevent successful domain data retrieval.
 - Environment-Specific Variables: Be cautious when printing environment variables in logs to avoid accidental exposure of sensitive data.
